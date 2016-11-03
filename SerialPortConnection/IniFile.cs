@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace INIFILE
 {
+
     public abstract class CustomIniFile
     {
         public CustomIniFile(string AFileName)
@@ -15,6 +16,7 @@ namespace INIFILE
         public string FileName
         {
             get { return FFileName; }
+
         }
         public virtual bool SectionExists(string Section)
         {
